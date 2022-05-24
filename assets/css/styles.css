@@ -1,0 +1,28 @@
+body{
+    color: slateblue;
+    font-family: sans-serif;
+}
+
+body h1{
+    margin-bottom: 0;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 5rem;
+}
+
+button{
+    border-radius: 50%;
+    border: 1;
+    border-color: antiquewhite;
+}
